@@ -1,0 +1,17 @@
+create database icom;
+USE icom;
+create table usuario(
+id int AUTO_INCREMENT PRIMARY KEY,
+nombre varchar(50) not null,
+apellido varchar(70) not null,
+email varchar(50) not null,
+password varchar(50)not null,
+sexo varchar(10) not null
+);
+
+create table publicacion(
+id int AUTO_INCREMENT PRIMARY KEY,
+autor varchar(50) NOT null,
+descripcion varchar(200),
+imagen varchar(100) NOT null
+);

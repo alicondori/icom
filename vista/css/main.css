@@ -1,0 +1,137 @@
+/* sass --watch nombreDeArchivo.extension nombreDeArchivo.css
+ejemplo		sass sintax.scss estilo.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.contenedor_detalle {
+  width: 70%;
+  margin: auto;
+}
+
+body {
+  background-color: #e7e7e7;
+}
+body header .contenedor .navegacion {
+  background-color: #171123;
+}
+body header .contenedor .navegacion .contenedor_detalle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  font-size: 20px;
+  padding: 20px 0;
+  margin-bottom: 10px;
+}
+body header .contenedor .navegacion .contenedor_detalle .logo a {
+  color: white;
+  text-decoration: none;
+}
+body header .contenedor .navegacion .contenedor_detalle .redes a {
+  margin-left: 10px;
+  color: white;
+}
+body section .contenedor {
+  /* --- seccion de login --- */
+}
+body section .contenedor .main .contenedor_detalle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+body section .contenedor .main .contenedor_detalle .imagen {
+  width: 40%;
+}
+body section .contenedor .main .contenedor_detalle .publicaciones {
+  width: 50%;
+}
+body section .contenedor .main .contenedor_detalle .publicaciones .tarjeta {
+  margin-bottom: 10px;
+}
+body section .contenedor .main .contenedor_detalle .publicaciones .tarjeta .thumb img {
+  width: 100%;
+  vertical-align: top;
+}
+body section .contenedor .main .contenedor_detalle .publicaciones .tarjeta .descripcion {
+  background: white;
+  padding: 10px 20px;
+}
+body section .contenedor .main .contenedor_detalle .publicaciones .tarjeta .descripcion .usuario {
+  font-weight: bold;
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+body section .contenedor .main .contenedor_detalle .publicaciones .tarjeta .descripcion p {
+  margin-bottom: 10px;
+}
+body section .contenedor .main .contenedor_detalle .publicaciones .tarjeta .descripcion .acciones {
+  text-align: right;
+}
+body section .contenedor .main .contenedor_detalle .publicaciones .tarjeta .descripcion .acciones a {
+  color: #3a3a3a;
+  margin-left: 20px;
+}
+body section .contenedor .main .contenedor_detalle .login {
+  width: 40%;
+  margin: auto;
+}
+body section .contenedor .formulario {
+  background: white;
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+body section .contenedor .formulario p {
+  font-weight: bold;
+  font-size: 25px;
+  margin: 15px 0 10px 0;
+}
+body section .contenedor .formulario input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 7px 7px;
+  border-style: solid;
+  border-color: #e7e7e7;
+  border-radius: 4px;
+}
+body section .contenedor .formulario .sexo input {
+  width: auto;
+}
+body section .contenedor .formulario .btn {
+  background-color: #28a745;
+  border-style: none;
+  cursor: pointer;
+  color: white;
+}
+body section .contenedor .formulario input[type=file] {
+  background: blueviolet;
+  display: none;
+}
+body section .contenedor .formulario .btn_subir {
+  background: #b0b0ff;
+  width: 100%;
+  cursor: pointer;
+  display: block;
+  padding: 5px;
+  color: color;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+body section .contenedor .formulario textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 7px 7px;
+  border-style: solid;
+  border-color: #e7e7e7;
+  border-radius: 4px;
+}
+
+/*# sourceMappingURL=main.css.map */

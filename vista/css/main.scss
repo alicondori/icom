@@ -1,0 +1,153 @@
+/* sass --watch nombreDeArchivo.extension nombreDeArchivo.css
+ejemplo		sass sintax.scss estilo.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+.contenedor_detalle {
+  width: 70%;
+  margin: auto;
+}
+body {
+  background-color: rgb(231, 231, 231);
+  header {
+    .contenedor {
+      .navegacion {
+        background-color: #171123;
+        .contenedor_detalle {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          color: white;
+          font-size: 20px;
+          padding: 20px 0;
+          margin-bottom: 10px;
+
+          .logo {
+            a {
+              color: white;
+              text-decoration: none;
+            }
+          }
+          .redes {
+            a {
+              margin-left: 10px;
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+  section {
+    .contenedor {
+      .main {
+        .contenedor_detalle {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          .imagen{
+            width: 40%;
+          }
+          .publicaciones {
+            width: 50%;
+            .tarjeta {
+              margin-bottom: 10px;
+              .thumb {
+                img {
+                  width: 100%;
+                  vertical-align: top;
+                }
+              }
+              .descripcion {
+                background: white;
+                padding: 10px 20px;
+                .usuario {
+                  font-weight: bold;
+                  display: block;
+                  text-decoration: none;
+                  color: black;
+                  font-size: 20px;
+                  margin-bottom: 15px;
+                }
+                p {
+                  margin-bottom: 10px;
+                }
+                .acciones {
+                  text-align: right;
+                  a {
+                    color: rgb(58, 58, 58);
+                    margin-left: 20px;
+                  }
+                }
+              }
+            }
+          }
+          .login{
+            width: 40%;
+            margin: auto;
+          }
+
+        }
+      }
+
+      /* --- seccion de login --- */
+      .formulario {
+        background: white;
+        text-align: center;
+        margin-bottom: 10px;
+        padding: 10px 20px;
+        border-radius: 4px;
+        p {
+          font-weight: bold;
+          font-size: 25px;
+          margin: 15px 0 10px 0;
+        }
+        input {
+          width: 100%;
+          margin-bottom: 10px;
+          padding: 7px 7px;
+          border-style: solid;
+          border-color: rgb(231, 231, 231);
+          border-radius: 4px;
+        }
+        .sexo {
+          input {
+            width: auto;
+          }
+        }
+        .btn {
+          background-color: #28a745;
+          border-style: none;
+          cursor: pointer;
+          color: white;
+        }
+        input[type='file']{
+          background: blueviolet;
+          display: none;
+        }
+        .btn_subir{
+          background: rgb(176, 176, 255);
+          width: 100%;
+          cursor: pointer;
+          display: block;
+          padding: 5px;
+          color: color;
+          border-radius: 3px;
+          margin-bottom: 10px;
+        }
+        textarea {
+          width: 100%;
+          margin-bottom: 10px;
+          padding: 7px 7px;
+          border-style: solid;
+          border-color: rgb(231, 231, 231);
+          border-radius: 4px;
+        }
+      }
+    }
+  }
+}
